@@ -27,3 +27,5 @@ function Reset(){
     myList=[];
     options.innerHTML=""
     document.getElementById("display").innerHTML=""
+}
+
