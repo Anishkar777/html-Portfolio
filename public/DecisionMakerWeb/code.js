@@ -21,4 +21,9 @@ function Choice(){
     let randdd=Math.floor(Math.random() * myList.length);
     
     document.getElementById("display").innerHTML="Choose "+myList[randdd];
+
 }
+function Reset(){
+    myList=[];
+    options.innerHTML=""
+    document.getElementById("display").innerHTML=""
