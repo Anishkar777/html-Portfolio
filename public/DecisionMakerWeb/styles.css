@@ -14,9 +14,6 @@ button{
     border-radius: 60px;
     height: 30px;
     width: 60px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     
 }
 .Add{
@@ -37,6 +34,7 @@ button{
 #display{
     font-size:22px;
 }
+
 
 
 
