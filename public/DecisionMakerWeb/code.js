@@ -19,8 +19,13 @@ function display(){
 }
 function Choice(){
     let randdd=Math.floor(Math.random() * myList.length);
-    
+    if(myList[randdd]==="Suicide"|| myList[randdd]==="Kill myself"|| myList[randdd]==="suicide"||myList[randdd]==="kill myself"||myList[randdd]==="die"||myList[randdd]==="Die"){
+            document.getElementById("display").innerHTML="Live for yourself";
+
+    }
+    else{
     document.getElementById("display").innerHTML="Choose "+myList[randdd];
+    }
 
 }
 function Reset(){
@@ -28,5 +33,6 @@ function Reset(){
     options.innerHTML="";
     document.getElementById("display").innerHTML="";
 }
+
 
 
