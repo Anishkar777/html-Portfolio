@@ -5,7 +5,9 @@ body{
  input{
     background-color: #FFF8DE;
     width: 400px;
+    height: 20px;
     font-family:monospace
+    font-size: medium;
 }
 button{
     background-color: #8CA9FF;
@@ -23,6 +25,12 @@ button{
 }
 .choices{
     color: #0b41a6;
+}
+#options{
+    font-size: large;
+}
+#display{
+    font-size:22px;
 }
 
 
