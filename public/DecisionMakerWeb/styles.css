@@ -4,14 +4,16 @@ body{
 }
  input{
     background-color: #FFF8DE;
-    width: 400px;
+    width: 300px;
     height: 20px;
     font-family:monospace
     font-size: medium;
 }
 button{
     background-color: #8CA9FF;
-    border-radius: 50px;
+    border-radius: 60px;
+    height: 30px;
+    width: 60px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -35,6 +37,7 @@ button{
 #display{
     font-size:22px;
 }
+
 
 
 
