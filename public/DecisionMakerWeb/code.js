@@ -25,7 +25,8 @@ function Choice(){
 }
 function Reset(){
     myList=[];
-    options.innerHTML=""
-    document.getElementById("display").innerHTML=""
+    options.innerHTML="";
+    document.getElementById("display").innerHTML="";
 }
+
 
