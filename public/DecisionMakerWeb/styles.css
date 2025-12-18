@@ -1,13 +1,26 @@
 body{
-    font-family:cursive
+    background-color:#FFF2C6 ;
+    font-family: monospace;
 }
  input{
+    background-color:#FFF8DE ;
     width: 400px;
-    font-family:cursive
+    font-family:monospace
+}
+button{
+    background-color:#8CA9FF;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 .Add{
-    font-family: cursive;
+    font-family: monospace;
 }
 .choice{
-    font-family: cursive;
+    font-family:monospace
+}
+.choices{
+    color: #0b41a6;
 }
