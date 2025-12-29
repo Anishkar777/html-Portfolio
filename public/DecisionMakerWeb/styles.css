@@ -1,6 +1,8 @@
 body{
-    background-color: #FFF2C6 ;
+    /* background-color: #FFF2C6 ; */
+    background-color:#0f1628;
     font-family: monospace;
+    color: white;
 }
  input{
     background-color: #FFF8DE;
@@ -8,15 +10,64 @@ body{
     height: 20px;
     font-family:monospace;
     font-size: medium;
-    margin-bottom: 10px;
+    margin-bottom:10px;
 }
-button{
+/* button{
     background-color: #8CA9FF;
     border-radius: 60px;
     height: 30px;
-    width: 60px;
-    
+    width: 60px;   */
+/* } */
+button {
+  position: relative;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: transparent;
+  overflow: hidden;
 }
+
+/* Rotating background */
+button::before {
+  content: "";
+  position: absolute;
+  inset: -50px;
+  background: linear-gradient(
+    transparent 15%,
+    #00eaff,
+    #00eaff,
+    transparent 85%
+    
+);
+
+  animation: rotate 3s linear infinite;
+  z-index: -1;
+}
+
+/* Inner solid layer */
+button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #010c1d;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .Add{
     font-family: monospace;
 }
@@ -27,7 +78,7 @@ button{
     font-family:monospace
 }
 .choices{
-    color: #0b41a6;
+    color: white;
 }
 #options{
     font-size: large;
